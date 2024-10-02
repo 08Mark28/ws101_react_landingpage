@@ -1,0 +1,48 @@
+#about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between text and image */
+    padding: 20px;
+    background-color: #222; /* Dark background */
+}
+
+.text-content {
+    flex: 1; /* Text content takes up half the space */
+    padding: 20px;
+    color: #fff; /* White text for contrast */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-content img {
+    width: 80%;
+    height: auto; 
+    object-fit: contain; 
+}
+
+@media (min-width: 1200px) {
+    .image-content img {
+        width: 90%;
+    }
+}

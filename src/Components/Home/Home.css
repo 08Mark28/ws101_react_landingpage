@@ -1,0 +1,57 @@
+.home-section {
+    min-height: 100vh;
+    padding-top: 70px; /* This adds space at the top to avoid overlap with the navbar */
+    padding: 20px;
+    background-color: #f0f0f0;
+    background: url(Moving\ 1.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+#intro {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#intro .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'monospace';
+    font-size: 4em; 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #202020;
+    text-align: center;
+}
+
+.home-description {
+    font-family: 'Courier New';
+    font-size: 24px;
+    line-height: 1.6; 
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+#intro .intro-text {
+    flex: 0 0 100%; 
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+

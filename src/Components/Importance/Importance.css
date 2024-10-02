@@ -1,0 +1,91 @@
+.importance-section {
+    min-height: 100vh;
+    background: url('./assets/Moving2.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: moveImportanceBackground 15s linear infinite;
+    padding: 50px 20px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.importance-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+}
+
+.importance-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.importance-section h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #d0d7e1;
+    text-align: center;
+    grid-column: span 3; /* Make the heading span all three columns */
+}
+
+.importance-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0; 
+    color: #fff;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.importance-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.importance-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 24px; 
+    line-height: 1.6; 
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto 20px; 
+    grid-column: span 3;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
